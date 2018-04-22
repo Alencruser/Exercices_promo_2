@@ -1,0 +1,61 @@
+/* Mise en place du format de la carte en definissant un maximum largeur/hauteur, ainsi que la couleur de fond de la carte */
+.visitcard {
+	height:325px;
+	width:502px;
+	background:radial-gradient(red, black);
+	border-style:solid;
+	border-color:black;
+	border-width:5px;
+	border-radius:25px;
+}
+/* Positionnement des balises une par une à leurs endroits respectifs avec ajout de compatibilite tout navigateur*/
+#lefttop {
+	top:25px;
+	left:20px;
+	position:absolute;
+	-webkit-transform:rotate(-30deg);
+	color:#fb4205;
+}
+#righttop {
+	top:30px;
+	left:420px;
+	position:absolute;
+	text-align:right;
+	color:#fb4205;
+}
+#leftbot {
+	top:250px;
+	left:40px;
+	position:absolute;
+	-webkit-transform: rotate(20deg);
+	color:#fb4205;
+}
+#rightbot {
+	position:absolute;
+	top:220px;
+	left:280px;
+	-webkit-transform: rotate(-30deg);
+	color:#fb4205;
+}
+/*Positionnement du nom et de son suffix, ainsi que choix de la police et moficitations liés à la police */
+#name {
+	position:absolute;
+	top:90px;
+	left:120px;
+	font-size:25px;
+	font-family:"URW chancery L";
+	text-shadow:5px -5px 3px black;
+}
+#suffix {
+	top:160px;
+	left:250px;
+	font-size:10px;
+	position:absolute;
+}
+#tel {
+	position:absolute;
+	top:125px;
+	left:190px;
+	font-size:20px;
+	font-family:"URW chancery L";
+}

@@ -1,0 +1,138 @@
+header {
+	height:300px;
+}
+#banner {
+	background:no-repeat url("anonymous.jpg") 0;
+	width:100%;
+	height:100%;
+	position:relative;
+    background-size:cover;
+}
+ul {
+	position:absolute;
+}
+.dropdown {
+	position:relative;
+	display:inline-block;
+}
+.dropdown .dropdownmenu{
+	position:absolute;
+	top:100%;
+	left:0;
+	margin:0;
+	display:none;
+}
+.dropdown:hover .dropdownmenu {
+	display:block;
+}
+.past {
+	position:relative;
+	display:inline-block;
+}
+.past .pastmenu {
+	position:absolute;
+	top:100%;
+	left:0;
+	margin:0;
+	display:none;
+}
+.past:hover .pastmenu {
+	display: block;
+}
+.ground {
+	position:relative;
+	display:inline-block;
+}
+.ground .groundmenu {
+	position:absolute;
+	top:100%;
+	left:0;
+	margin:0;
+	display:none;
+}
+.ground:hover .groundmenu {
+	display: block;
+}
+.weapon {
+	position:relative;
+	display:inline-block;
+}
+.weapon .weaponmenu {
+	position:absolute;
+	top:100%;
+	left:0;
+	margin:0;
+	display:none;
+}
+.weapon:hover .weaponmenu {
+	display:block;
+}
+#copyr {
+	font-size:12px;
+}
+.contact {
+	position:relative;
+	display:inline-block;
+}
+.contact .contactmenu {
+	position:absolute;
+	top:100%;
+	left:0;
+	margin:0;
+	display:none;
+}
+.contact:hover .contactmenu {
+	display:block;
+}
+#progamer {
+    text-align:left;
+    position:relative;
+    top:90px;
+    font-size:30px;
+    font-family:"Ubuntu Mono";
+    color:#8A0707
+}
+#learningdev {
+    text-align:right;
+    font-size:30px;
+    font-family: "Ubuntu Mono";
+    top:-40px;
+    position:relative;
+    color:#8A0707
+}
+#once {
+    text-align:center;
+    font-size:30px;
+    color:#8A0707;
+    position:relative;
+    font-weight:bold;
+}
+button {
+    height:40px;
+    width:250px;
+}
+img {
+    border-style:solid;
+    border-color:white;
+}
+#fmaq {
+    position:absolute;
+    height:240px;
+    width:320px;
+    top:80%
+}
+#smaq {
+    position:absolute;
+    left:55%;
+    top:80%;
+}
+body {
+    background:black;
+}
+footer {
+    position:absolute;
+    top:150%;
+}
+.dropdownmenu {
+    color:white;
+}
